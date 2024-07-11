@@ -78,13 +78,17 @@ const TimelineSection = styled.div`
 
 
 const index = () => {
+    const myStyle = {
+        marginTop:'40px',
+      };
     return (
         <Container id="education">
             <Wrapper>
-                <Title>Education</Title>
+                <Title style={myStyle}>Education</Title>
                 <Desc>
                     My education has been a journey of self-discovery and growth. My educational details are as follows.
                 </Desc>
+
                 <TimelineSection>
                     <Timeline>
                         {education.map((education,index) => (
@@ -103,7 +107,7 @@ const index = () => {
                 </TimelineSection>
             </Wrapper>
         </Container>
-    )
+    ) 
 }
 
 export default index

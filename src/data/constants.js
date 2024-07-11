@@ -1,6 +1,6 @@
-import portfolioScreen from "../images/portfolioimage.png"
+// import portfolioScreen from "../images/portfolioimage.png"
 export const Bio = {
-  name: "Gaurav Lagad",
+  name: "Khushal Pawar",
   roles: [
     "Web Developer",
     "Full Stack Developer",
@@ -10,11 +10,11 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/gauravlagad96",
   resume:
-    "https://drive.google.com/file/d/1eG3nrUgy5H4s2OhmTtDuZofdaCy3u-Hn/view?usp=drivesdk",
-  linkedin: "https://www.linkedin.com/in/gaurav-lagad-9431bb22b",
-  twitter: "#",
-  insta: "#",
-  facebook: "#",
+    "https://drive.google.com/file/d/1tQCKIU-jzr6adH1eDW7eA0NdIchPJzg7/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/",
+  hackerrank: "https://www.hackerrank.com/",
+  insta: "https://www.instagram.com/pawar_khushal_prakash",
+  github: "https://github.com/khushalpawar",
 };
 
 export const skills = [
@@ -30,11 +30,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
-      {
-        name: "Tailwind CSS",
-        image:
-          "https://img.icons8.com/?size=96&id=x7XMNGh2vdqA&format=png",
-      },
+      
       {
         name: "JavaScript",
         image:
@@ -58,7 +54,7 @@ export const skills = [
       {
         name: "Spring",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://img.icons8.com/?size=96&id=90519&format=png",
       },
       {
         name: "Spring Boot",
@@ -66,14 +62,11 @@ export const skills = [
           "https://img.icons8.com/?size=96&id=90519&format=png",
       },
       {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
+      
       // {
       //   name: "MongoDB",
       //   image:
@@ -82,6 +75,7 @@ export const skills = [
       
     ],
   },
+
   // {
   //   title: "Android",
   //   skills: [
@@ -102,6 +96,7 @@ export const skills = [
   //     },
   //   ],
   // },
+
   {
     title: "Others",
     skills: [
@@ -110,11 +105,11 @@ export const skills = [
         image:
           "https://img.icons8.com/?size=96&id=33039&format=png",
       },
-      {
-        name: "Postman",
-        image:
-          "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
-      },
+      // {
+      //   name: "Postman",
+      //   image:
+      //     "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
+      // },
       {
         name: "Git",
         image:
@@ -149,38 +144,38 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://www.imscdr.ac.in/public/images/frontend/logo.png",
-    school: "Institute of Management Studies Career Development & Research (IMSCDR), Ahilydevianagar",
+    img: "https://img.icons8.com/?size=100&id=8TNnHFi2aBoF&format=png",
+    school: "K.T.H.M. COLLEGE, Nashik",
     date: "  Nov 2022 - May 2024",
-    grade: "8.32 CGPA",
-    desc: "I am currently pursuing a Master's degree in Computer application at Institute of Management Studies Career Development & Research (IMSCDR), Ahmednagar. I have completed 3 semesters and have a CGPA of 7.72. In the academic curriculum i have learn various subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. where I am learning, improving skills and working on exciting projects.",
+    grade: "7.32 CGPA",
+    desc: "I am currently pursuing a Master's degree in Computer application at K.T.H.M. COLLEGE, Nashik. I have learn various subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. where I am learning, improving skills and working on exciting projects.",
     degree: "Master of Computer Application",
   },
   {
     id: 1,
-    img: "https://files.prisms.in/scsmprisms/2021-2022/Academic/header_settings/SCSM.png",
-    school: "Shri Chhatrapati Shivaji Mahavidyalaya, Shrigonda",
-    date: "Apr 2019 - Apr 2022",
-    grade: "7.96 CGPA",
-    desc: "I completed my Bachelor's degree in Computer Application at Shri Chhatrapati Shivaji Mahavidyalaya, Shrigonda. Where i learn programming languages and computer fundamental concepts and also various skills such as C, java, frontend technologies and so on",
+    img: "https://img.icons8.com/?size=100&id=8TNnHFi2aBoF&format=png",
+    school: "Panchavati College of Management & Computer Science",
+    date: "Apr 2018 - Apr 2021",
+    grade: "62.30%",
+    desc: "I completed my Bachelor's degree in Computer Science at Panchavati College of Management & Computer Science. Where i learn programming languages and computer fundamental concepts and also various skills such as C, java, frontend technologies and so on",
     degree: "Bachelor Of Computer Application",
   },
   {
     id: 2,
     img: "https://img.icons8.com/?size=100&id=8TNnHFi2aBoF&format=png",
-    school: "Shri Kolaidevi Junior College, Kolgaon, Ahmednagar",
-    date: "Apr 2017 - Apr 2019",
-    grade: "64.0%",
-    desc: "I completed my class 12 high school education at Shri Kolaidevi Junior College Kolgaon, Kolgaon. where I studied Science with PCMB Group.",
+    school: "Samajshri Prashantdada Hiray Art's, Science and Commerce College Nampur",
+    date: "Apr 2016 - Apr 2018",
+    grade: "53.40%",
+    desc: "I completed my class 12 high school education at Samajshri Prashantdada Hiray Art's, Science and Commerce College . where I studied Science with PCMB Group.",
     degree: "HSC(XII), Science with PCMB Group",
   },
   {
     id: 3,
     img: "https://img.icons8.com/?size=100&id=8TNnHFi2aBoF&format=png",
-    school: "Shree Kolaidevi Vidyalaya Kolgaon,shrigonda.",
-    date: "Apr 2016 - Apr 2017",
-    grade: "74.80%",
-    desc: "I completed my class 10 education at Shree Kolaidevi Vidyalaya Kolgaon. where I completed my secondary education",
+    school: "NAMPUR ENGLISH SCHOOL. NAMPUR.",
+    date: "Apr 2015 - Apr 2016",
+    grade: "75.45%",
+    desc: "I completed my class 10 education at Nampur English school. where I completed my secondary education",
     degree: "SSC(X), Science",
   },
 ];
@@ -192,35 +187,22 @@ export const projects = [
     date: "Nov 2022 - Mar 2023",
     description:
       " The food ordering system is MERN Stack Ecommerce Project. The proposed system is developed to manage ordering activities in fast food restaurant. These systems will ultimately allow you to better manage resources ",
-    image:
-      {portfolioScreen},
-    tags: ["HTML5 & CSS3", "Bootstrap", "Javascript", "MERN Technology"],
+    // image: {portfolioScreen},
+    tags: ["HTML5", "Tailwind css", "ReactJs", "Spring Boot","MUI"],
     category: "web app",
     github: "",
   },
+  
   {
     id: 1,
-    title: "Agri-Boost",
-    date: "May 2023 - Jul 2023",
-    description:
-      "The Agri-Boost has been developed to manage the fertilizer in the store. This system improves the method of taking the order from customer. This system also provides a report generation system in which user can generate weekly, monthly, yearly reports.",
-    image:
-      "https://github.com/HusenMujawar/Agri-Boost/blob/main/Screenshot%202024-01-08%20141022.png?raw=true",
-    tags: ["Html", "CSS", "Javascript", "PHP", "MYSQL"],
-    category: "web app",
-    github: "https://github.com/HusenMujawar/Agri-Boost.git",
-  },
-  {
-    id: 2,
     title: "Portfolio website",
     date: "Jan 2024",
     description:
       "A portfolio react based responsive website. This project showcases my skills, projects, and experiences as a web developer.",
-    image:
-      "#",
+    image:"https://drive.google.com/file/d/1fAlJi0mGxL6mHJou2BB3pSqLNA9O7Zmo/view?usp=drivesdk",
     tags: ["HTML5", "CSS", "Javascript", "ReactJS"],
     category: "web app",
-    github: "https://github.com/HusenMujawar/Portfolio.git",
+    github: "https://github.com/gauravlagad96/portfolio",
   },
 
 ];

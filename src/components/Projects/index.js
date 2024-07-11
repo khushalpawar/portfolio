@@ -7,10 +7,13 @@ import { projects } from '../../data/constants'
 
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
+  const myStyle = {
+    marginTop:'70px',
+  };
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title style={myStyle}>Projects</Title>
         <Desc>
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
@@ -32,12 +35,7 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
           }
-          {/* <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          } */}
+          
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
